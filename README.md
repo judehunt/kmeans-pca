@@ -3,7 +3,7 @@
 ## Running this notebook with dependencies
 ```python
 docker build -t kmeans-pca .
-docker run -it -p 8888:8888 kmeans-pca
+docker run --rm -it -p 8888:8888 kmeans-pca
 jupyter notebook
 ```
 
